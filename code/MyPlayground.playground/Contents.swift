@@ -21,3 +21,18 @@ var d = a + Int(b)
 b = b + 2
 b *= 3
 print(b)
+
+var dog = true
+print(dog)
+dog.toggle()
+print(dog)
+
+var str1 = "hello"
+var str2 = "jerry"
+
+var str_with_add = str1 + str2;
+print(str_with_add)
+
+var age = 29
+var name = "John Wick"
+print("Hey guys, nice to meet you all, my name is \(name), and I am \(age) years old")
